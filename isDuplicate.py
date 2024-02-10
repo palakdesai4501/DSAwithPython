@@ -3,6 +3,7 @@
 nums = [1,2,3,1]
 
 def isDuplicate(nums):
+    # Create a set to store the unique elements
     hashset = set()
 
     for n in nums:
